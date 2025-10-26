@@ -22,7 +22,7 @@ export default function MovieCard({ movie, onOpen }) {
         <Card.Title className="fs-6">{movie.Title}</Card.Title>
         <Card.Text className="text-muted">{movie.Year}</Card.Text>
         <Button variant="outline-primary" size="sm" className="mt-auto" onClick={() => onOpen(movie.imdbID)}>
-          Ver más
+          See more
         </Button>
       </Card.Body>
     </Card>
